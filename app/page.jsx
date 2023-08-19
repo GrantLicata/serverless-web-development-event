@@ -42,19 +42,21 @@ export default function Home() {
       <h1 className="text-3xl font-bold">Create Contact</h1>
       <p>Enter your new contact below</p>
       <CreateForm getData={getData} />
-      {data.map((contact) => (
-        <ContactCard
-          key={contact._id}
-          firstName={contact.firstName}
-          lastName={contact.lastName}
-          email={contact.email}
-          phone={contact.phone}
-          address={contact.address}
-          id={contact._id}
-          getData={getData}
-          handleDelete={handleDelete}
-        />
-      ))}
+      {data
+        ? data.map((contact) => (
+            <ContactCard
+              key={contact._id}
+              firstName={contact.firstName}
+              lastName={contact.lastName}
+              email={contact.email}
+              phone={contact.phone}
+              address={contact.address}
+              id={contact._id}
+              getData={getData}
+              handleDelete={handleDelete}
+            />
+          ))
+        : none}
     </div>
   );
 }
