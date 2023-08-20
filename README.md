@@ -9,7 +9,7 @@ To use the contact application, you will need the following:
 * NPM
 
 
-## Follow along with the contact application setup
+## Getting Ready
 1. Clone the git repository to your computer
 
 ```bash
