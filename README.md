@@ -4,6 +4,10 @@ This project folder provides the front used in the Serverless Web Development ev
 ## Follow along with the contact application setup
 1. Clone this git repository to your computer
 
+```bash
+git clone https://github.com/GrantLicata/serverless-web-development-event.git
+```
+
 2. Run the development server:
 
 ```bash
