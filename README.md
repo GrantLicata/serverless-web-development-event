@@ -17,5 +17,5 @@ yarn dev
 # or
 pnpm dev
 ```
-3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
+3. Open the link below with your browser to see the project.
+[http://localhost:3000](http://localhost:3000)
